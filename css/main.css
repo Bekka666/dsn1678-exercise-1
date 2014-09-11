@@ -33,32 +33,44 @@ img {
 .fig {
 	margin: 0;
 	padding: 0;
-	background-color: red;
 	position: relative;
 }
 
 .cap {
 	position: absolute;
 	left: 45px;
-	top: 25rem;
+	bottom: 5px;
 	right: 10px;
 	font-size: 1.125rem;
 	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style: italic;
 	color: white;
+	background-color: rgbargba(0,0,0,0.5)
+}
+.main {
+	padding: 1.5rem;
 }
 
-dl { overflow: hidden;
-	
+.header {
+	font-family: helvetica;
+	color: #4A1C01;
+	font-size: 1.5rem;
 }
 
-dt {
-	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+.box {
+	width: 33.3%;
+	float: left;
+}
+
+.small {
+	text-transform: uppercase;
+}
+
+.sub {
+	font-size: 1rem;
 	color: grey;
-
 }
 
-dd {
-	margin: 0;
-	padding: 0;
-
+.body {
+	font-size: .8rem;
 }
