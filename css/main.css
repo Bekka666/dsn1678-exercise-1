@@ -8,6 +8,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background-color: grey;
 
   font: normal 100%/1.5 sans-serif;
   -moz-text-size-adjust: 100%;
@@ -38,14 +39,16 @@ img {
 
 .cap {
 	position: absolute;
-	left: 45px;
-	bottom: 5px;
-	right: 10px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
 	font-size: 1.125rem;
 	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	font-style: italic;
 	color: white;
-	background-color: rgbargba(0,0,0,0.5)
+	background-color: rgba(0,0,0,0.5);
+	margin: 0;
+	padding: 1rem;
 }
 .main {
 	padding: 1.5rem;
@@ -73,4 +76,23 @@ img {
 
 .body {
 	font-size: .8rem;
+}
+
+.border {
+	border-right: 1px solid grey;
+	line-height: 1rem;
+	padding-left: 1rem;
+	margin-bottom: 1rem;
+
+}
+
+.last {
+	padding-left: 1rem;
+}
+
+.bgd {
+	background-color: white;
+	border-radius: 10px;
+	overflow: hidden;
+
 }
