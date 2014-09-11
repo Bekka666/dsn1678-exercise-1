@@ -1,0 +1,64 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  font: normal 100%/1.5 sans-serif;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.fig {
+	margin: 0;
+	padding: 0;
+	background-color: red;
+	position: relative;
+}
+
+.cap {
+	position: absolute;
+	left: 45px;
+	top: 25rem;
+	right: 10px;
+	font-size: 1.125rem;
+	font: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color: white;
+}
+
+dl { overflow: hidden;
+	
+}
+
+dt {
+	font: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	color: grey;
+
+}
+
+dd {
+	margin: 0;
+	padding: 0;
+
+}
